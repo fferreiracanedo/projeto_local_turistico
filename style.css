@@ -1,0 +1,83 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            font-family: "Alice", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        main div img {
+            height: 375px;
+            object-fit: cover; /* Ajusta a proporção da imagem para caber no container disponível pra ela sem distorcer */
+            margin-top: 44px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 36px;
+            font-weight: bold;
+            
+        }
+
+        h2{
+            font-size: 32px;
+            font-weight: bold;
+           
+        }
+
+        h3{
+            font-size: 28px;
+            font-weight: bold;
+            
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+
+        #page{
+            text-align: center;
+            padding: 88px;
+        }
+
+        .italic-text{
+            font-size: 16px;
+            line-height: 22px;
+            font-style: italic; /* Muda estilo da fonte para itálico */
+            text-align: center;
+            color: #333333;
+            margin-top: 24px;
+        }
+
+        .min-title {
+            color: #E1624F;
+        }
+
+
+        #apresentation>img{
+            margin-top: 40px;
+        }
+
+
+        #travelways{
+            margin-top: 64px;
+        }
+
+        #travelways>h2{
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+
+        .text-away{
+            margin-bottom: 76px;
+        }
+
+        h3{
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
